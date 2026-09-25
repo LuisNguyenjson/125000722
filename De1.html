@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB LHU Chill - Trang Chủ</title>
+    <link rel="stylesheet" href="De1.css">
+    <link rel="icon" type="image/png" href="./im/Screenshot 2026-09-25 143638.png">
+</head>
+
+
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <h1 class="logo-text">LHU Chill</h1>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#trang-chu">Trang Chủ</a></li>
+                    <li><a href="#gioi-thieu">Giới Thiệu</a></li>
+                    <li><a href="#hoat-dong">Hoạt Động</a></li>
+                    <li><a href="#dang-ky">Thành Viên</a></li>
+                    <li><a href="#lien-he">Liên Hệ</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle-btn" class="btn-theme" type="button">Dark Mode</button>
+        </div>
+    </header>
+
+    <section id="trang-chu" class="hero-banner">
+        <header class="banner-content">
+            <h2>Chào Mừng Đến Với LHU Chill</h2>
+            <p>Nơi giao lưu, học hỏi và chia sẻ đam mê dành cho sinh viên LHU</p>
+            <a href="#dang-ky" class="btn-banner">Tham Gia Ngay</a>
+        </header>
+    </section>
+
+    <main class="main-container">
+        <section id="hoat-dong" class="activities-section">
+            <h2 class="section-title">Hoạt Động Nổi Bật</h2>
+            
+            <section class="activity-grid">
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/download.jpg" alt="Workshop Lập Trình Cơ Bản">
+                        <figcaption><time datetime="2026-07-13">13/07/2026</time></figcaption>
+                    </figure>
+                    <h3>Workshop Lập Trình MU</h3>
+                    <p>Hướng dẫn lập trình cơ bản và tư duy logic dành cho người mới bắt đầu.</p>
+                </article>
+
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/wibu1.jpg" alt="1001 câu hỏi vì sao đưa em tới">
+                        <figcaption><time datetime="2026-07-13">13/07/2026</time></figcaption>
+                    </figure>
+                    <h3>Vì Sao Đưa Em Tới</h3>
+                    <p>1001 Hướng dẫn Aura Farming và chia sẻ kỹ năng mềm cho sinh viên.</p>
+                </article>
+
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/wibu2.jpg" alt="Workshop Bá Khí">
+                        <figcaption><time datetime="2026-07-13">13/07/2026</time></figcaption>
+                    </figure>
+                    <h3>Workshop Bá Khí</h3>
+                    <p>Hướng dẫn tập chụp ảnh và xây dựng thương hiệu cá nhân uy tín.</p>
+                </article>
+
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/wibu3.jpg" alt="Đào Tạo Bá Khí Nâng Cao">
+                        <figcaption><time datetime="2026-07-13">13/07/2026</time></figcaption>
+                    </figure>
+                    <h3>Đào Tạo Bá Khí Nâng Cao</h3>
+                    <p>Khóa đào tạo chuyên sâu về kỹ năng giao tiếp và thuyết trình trước đám đông.</p>
+                </article>
+
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/wibu4.jpg" alt="Workshop Văn Nghệ Aura Farming">
+                        <figcaption><time datetime="2026-07-13">13/07/2026</time></figcaption>
+                    </figure>
+                    <h3>Văn Nghệ Aura Farming</h3>
+                    <p>Chương trình giao lưu văn nghệ và kết nối giữa các thành viên câu lạc bộ.</p>
+                </article>
+
+                <article class="activity-card">
+                    <figure>
+                        <img src="./im/wibu5.jpg" alt="Giao Lưu Tân Sinh Viên">
+                        <figcaption><time datetime="2026-08-01">01/08/2026</time></figcaption>
+                    </figure>
+                    <h3>Giao Lưu Tân Sinh Viên</h3>
+                    <p>Buổi gặp mặt chào đón tân sinh viên khoá mới nhập học tại trường.</p>
+                </article>
+            </section>
+        </section>
+
+
+
+
+        <aside id="dang-ky" class="form-section">
+            <h2 class="section-title">Đăng Ký Thành Viên</h2>
+            
+            <form class="register-form">
+                <p class="form-group">
+                    <label for="fullname">Họ Tên:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+                </p>
+
+                <p class="form-group">
+                    <label for="dob">Ngày sinh:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </p>
+
+                <p class="form-group">
+                    <label for="email">Email liên hệ:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </p>
+
+                <p class="form-group">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0901234567" required>
+                </p>
+
+                <fieldset class="form-group border-none">
+                    <legend>Giới Tính:</legend>
+                    <p class="gender-group">
+                        <label for="gender-male">
+                            <input type="radio" id="gender-male" name="gender" value="nam" checked> Nam
+                        </label>
+                        <label for="gender-female">
+                            <input type="radio" id="gender-female" name="gender" value="nu"> Nữ
+                        </label>
+                        <label for="gender-other">
+                            <input type="radio" id="gender-other" name="gender" value="khac"> Khác
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p class="form-group">
+                    <label for="faculty">Khoa Đang Học:</label>
+                    <select id="faculty" name="faculty" required>
+                        <option value="">-- Chọn Khoa Đang Học --</option>
+                        <option value="cntt">Công Nghệ Thông Tin</option>
+                        <option value="dtvt">Điện Tử Viễn Thông</option>
+                        <option value="qtkd">Quản Trị Kinh Doanh</option>
+                        <option value="nna">Ngôn Ngữ Anh</option>
+                    </select>
+                </p>
+
+                <fieldset class="form-group border-none">
+                    <legend>Lĩnh vực quan tâm:</legend>
+                    <p class="interest-group">
+                        <label for="interest-web">
+                            <input type="checkbox" id="interest-web" name="interest[]" value="web"> Lập trình Web
+                        </label>
+                        <label for="interest-app">
+                            <input type="checkbox" id="interest-app" name="interest[]" value="app"> Lập trình Mobile
+                        </label>
+                        <label for="interest-ai">
+                            <input type="checkbox" id="interest-ai" name="interest[]" value="ai"> Trí tuệ nhân tạo (AI)
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p class="form-group">
+                    <label for="reason">Lý do muốn tham gia:</label>
+                    <textarea id="reason" name="reason" rows="4" placeholder="Chia sẻ mong muốn hoặc mục tiêu của bạn khi tham gia CLB..."></textarea>
+                </p>
+
+                <p class="form-buttons">
+                    <button type="submit" class="btn-submit">Đăng ký</button>
+                    <button type="reset" class="btn-reset">Nhập lại</button>
+                </p>
+            </form>
+        </aside>
+
+    </main>
+
+    <footer id="lien-he" class="site-footer">
+        <div class="footer-container">
+            <section class="footer-info">
+                <h3>CLB LHU Chill</h3>
+                <address>
+                    Địa chỉ sinh hoạt: Phòng A201, Cơ sở 1 - Đại học Lạc Hồng<br>
+                    Email liên hệ: <a href="mailto:tn553914@gmail.com">tn553914@gmail.com</a>
+                </address>
+            </section>
+            
+
+            
+            <nav class="footer-social" aria-label="Mạng xã hội">
+                <h3>Kết nối với chúng tôi</h3>
+                <p class="social-links">
+                    <a href="#">Facebook</a> |
+                    <a href="#">Zalo Group</a> |
+                    <a href="#">GitHub</a>
+                </p>
+            </nav>
+        </div>
+        
+        <p class="footer-copyright">&copy; 2026 CLB LHU Chill. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script>
+        const themeBtn = document.getElementById('theme-toggle-btn');
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                themeBtn.textContent = 'Light Mode';
+            } else {
+                themeBtn.textContent = 'Dark Mode';
+            }
+        });
+    </script>
+</body>
+
+</html>
